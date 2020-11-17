@@ -1,7 +1,7 @@
 pipeline {
    agent any
    stages {
-      stage('clone repo') {
+      stage('FILE CREATION') {
           steps {
               dir('ORIGIN')  
     
@@ -16,6 +16,6 @@ folder('project-a/testing') {
          }
 
          }
-      }
+      
 
 
