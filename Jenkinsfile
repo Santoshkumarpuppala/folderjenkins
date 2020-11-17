@@ -4,6 +4,8 @@ pipeline {
       stage('FILE CREATION') {
           steps {
               dir('ORIGIN')  
+             {
+                writeFile file:'dummy',text:"
     
 }
 
