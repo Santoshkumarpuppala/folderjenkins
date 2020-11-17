@@ -6,7 +6,7 @@ pipeline {
               dir('ORIGIN')  
              {
                 sh 'ls -l'
-                writeFile file:'dummy',text:"
+               writeFile file:'dummy', text:''
                 sh 'ls -l'
     
 }
