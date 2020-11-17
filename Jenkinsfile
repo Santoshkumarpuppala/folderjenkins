@@ -3,9 +3,8 @@ pipeline {
    stages {
       stage('clone repo') {
           steps {
-              folder('project-a') {
-    displayName('ORIGIN')
-    description('ORIGINFOLDER')
+              dir('ORIGIN')  
+    
 }
 
 folder('project-a/testing') {
